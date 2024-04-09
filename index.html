@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
+    <script src="https://use.fontawesome.com/af58c35af7.js"></script>
+    <link href="https://fonts.cdnfonts.com/css/proxima-nova-lt" rel="stylesheet">
+
+
+    <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script> -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"></script>
+    <link rel="canonical" href="https://getbootstrap.com/docs/4.1/examples/sticky-footer-navbar/">
+    <link href="style.css" rel="stylesheet">
+    <link href="css/timeline.css" rel="stylesheet">
+
+    <script>
+        $(document).ready(function () {
+            $("#mostrarmodal").modal("show");
+        });
+    </script>
+
+    <title>APP COORDITANQUES</title>
+</head>
+<body>
+
+  
+    <nav class="navbar navbar-expand-lg py-3 navbar-dark bg-dark shadow-sm">
+        <div class="container">
+            <a href="#" class="navbar-brand">
+                <!-- Logo Image -->
+                <img src="images/logoapp.png" width="80" alt="" class="d-inline-block align-middle mr-2">
+                <!-- Logo Text -->
+                <span class="text-uppercase font-weight-bold">Coordinadora De Tanques SAS</span>
+            </a>
+
+            <button type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler"><span class="navbar-toggler-icon"></span></button>
+
+            <div id="navbarSupportedContent" class="collapse navbar-collapse">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active"><a href="https://www.coorditanques.com" target="_blank" class="nav-link">Inicio <span class="sr-only">(current)</span></a></li>
+                    <li class="nav-item"><a href="#" class="nav-link" data-toggle="modal" data-target="#acercade">Acerca De </a></li>
+                    <li class="nav-item"><a href="#" class="nav-link" data-toggle="modal" data-target="#soporte">Soporte </a></li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="modal fade" id="soporte" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLongTitle">SOPORTE TIC</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <h4>
+                        Agencias</h3>
+                        <br>
+                        <p>Realizar las solicitudes de soportes a traves del correo: ct:tic@coorditanques.com</p>
+                        <br>
+                        <h4>
+                            Sede Medellín</h3>
+                            <br>
+                            <p>Realizar la solicitudes de soportes a traves del MATIC, sino tienes aún tu usuario, envia un correo a ct_tic@cooritanques.com solicitandolo.</p>
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="acercade" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLongTitle">Acerca De</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p>
+                        Este sitio se creo con la finalidad de facilitar el acceso a las diferentes aplicaciones de Coordinadora De Tanques SAS,
+                        su uso es exclusivo para los empleados.
+                    </p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container text-center">
+        <div class="row">
+            <div class="column">
+                <div class="card h-100">
+                    <a href="https://ctapp.coorditanques.com/sitracv2ct" target="_blank">
+                        <img src="images/sitrac.png" alt="sitrac">
+                        <h3 style="color: #66797d" ;>Sitrac</h3>
+                    </a>
+                </div>
+            </div>
+            <div class="column">
+                <div class="card h-100">
+                    <a href="https://www.coorditanques.com/Intranet.html" target="_blank">
+                        <img src="images/intranetb.png" alt="intranet">
+                        <h3 style="color: #66797d">Intranet</h3>
+                    </a>
+
+                </div>
+            </div>
+
+            <div class="column">
+                <div class="card h-100">
+                    <a href="https://ctapp.coorditanques.com/pedidoscd" target="_blank">
+                        <img src="images/carritocd.png" alt="carritoct">
+                        <h3 style="color: #63c7c7" ;>Carrito Co-Diesel</h3>
+                    </a>
+                </div>
+            </div>
+            <div class="column">
+                <div class="card h-100">
+                    <a href="https://ctapp.coorditanques.com/pedidosct" target="_blank">
+                        <img src="images/carritoctred.png" alt="carritoct">
+                        <h3 style="color: #ee2c37">Carrito Coordinadora</h3>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="column">
+                <div class="card h-100">
+                    <a href="https://ctapp.coorditanques.com/AppPermisos" target="_blank">
+                        <img src="images/permisos.png" alt="apppermisos">
+                        <h3 style="color: #66797d">APP - Coorditanques</h3>
+                    </a>
+
+                </div>
+            </div>
+            <div class="column">
+                <div class="card h-100">
+                    <a href="https://ctapp.coorditanques.com/OfimaCoordinadora" target="_blank">
+                        <img src="images/logoEncOfimaCT.png" alt="apppermisos">
+                        <h3 style="color: #66797d">OfimaWeb Coorditanques</h3>
+                    </a>
+
+                </div>
+            </div>
+            <div class="column">
+                <div class="card h-100">
+                    <a href="https://ctapp.coorditanques.com/OfimaCodiesel/" target="_blank">
+                        <img src="images/logoEncOfimaCD.png" alt="owCodiesel">
+                        <h3 style="color: #66797d">OfimaWeb Codiesel</h3>
+                    </a>
+
+                </div>
+            </div>
+            <div class="column">
+                <div class="card h-100">
+                    <a href="https://outlook.office365.com/" target="_blank">
+                        <img src="images/emailb.png" alt="correo365">
+                        <h3 style="color: #66797d">Correo Corporativo</h3>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="column">
+                <div class="card h-100">
+                    <a href="https://cmcoortanques.atomic-ecm.com.co/navigator/?desktop=CoorTanques" target="_blank">
+                        <img src="images/atomic.png" alt="Atomic" style="max-width: 100%">
+                        <h3 style="color: #66797d;">Atomic Platform</h3>
+                    </a>
+
+                </div>
+            </div>
+            <div class="column">
+                <div class="card h-100">
+                    <a href="https://codiesel.buk.co" target="_blank">
+                        <img src="images/buk_cd.png" alt="owCodiesel" style="max-width: 65%">
+                        <h3 style="color: #66797d">Codiesel</h3>
+                    </a>
+
+                </div>
+            </div>
+            <div class="column">
+                <div class="card h-100">
+                    <a href="https://coorditanques.buk.co" target="_blank">
+                        <img src="images/buk_ct.png" alt="owCT">
+                        <h3 style="color: #66797d; margin-top:10px;">Coorditanques</h3>
+                    </a>
+
+                </div>
+            </div>
+        </div>
+        
+         
+    </div>
+    <footer>
+       <div class="row">
+                        <div class="col-md-8 col-sm-6 col-xs-12">
+                            <p class="copyright-text">
+                                Copyright &copy; <span id="demo">
+                                    <script>
+                                        const copyrightDate = new Date();
+                                        document.write(copyrightDate.getFullYear());
+                                    </script>
+                                </span> All Rights Reserved by
+                                <a href="#">COORDITANQUES - WGILR</a>
+                            </p>
+
+                        </div>
+                        <p id="demo"></p>
+
+                        <div class="col-md-4 col-sm-6 col-xs-12">
+                            <ul class="social-icons">
+                                <li><a class="facebook" href="https://www.facebook.com/people/Coordinadora-De-Tanques-SAS/100063985932585/" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                                <li><a class="twitter" href="https://www.instagram.com/coorditanques/?hl=es" target="_blank"><i class="fa fa-instagram"></i></a></li>
+                                <li><a class="linkedin" href="https://co.linkedin.com/company/coordinadora-de-tanques-sas?original_referer=https%3A%2F%2Fwww.google.com%2F" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+                            </ul>
+                        </div>
+       </div>         
+    </footer>
+</body>
+
+
+</html>
